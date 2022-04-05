@@ -14,6 +14,8 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 ``Network Concepts``
 
+###### Ports and Protocols
+
 <details close>
 	<summary>Introduction to IP</summary>
 
@@ -112,6 +114,8 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 - H.323 ``tcp/1720`` <br/>
 </details>
 
+###### The OSI Model
+
 <details close>
 	<summary>Understanding Open Systems Interconnection (OSI) Model</summary>
 
@@ -150,6 +154,8 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 	        ![Image: OSI Model](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/osi-model.png?raw=true) <br/>			
 			- Wireshark <br/>
 </details>
+
+###### Routing and Switching
 
 <details close>
 	<summary>Introduction to Ethernet</summary>
@@ -1044,7 +1050,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 		- Wireless <br/>
 </details>
 
-<details open>
+<details close>
 	<summary>Software Defined Networking (SDN)</summary>
 
 - Networking Devices have x2 Functional Planes of Operation <br/>
@@ -1098,8 +1104,20 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 							- Grouping Different Resources into own VLAN	<br/>		![Image: Distibuted Switch](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/distibuted-switch.png?raw=true) <br/>
 </details>
 
+###### Network Addressing
+
+<details close>
+	<summary>Binary Math</summary>
+
+- [Binary Math](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMath) <br/>
+    - [Binary to Decimal Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathBinarytoDecimal) <br/>
+    - [Decimal to Binary Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathDecimaltoBinary) <br/>
+- [More Bits then More Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathMoreBitsthenMoreAddresses) <br/>
+    - [Powers Of Two](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathPowersOfTwo)
+</details>
+
 ## Credits
 
-J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
+J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
 
 ## END
