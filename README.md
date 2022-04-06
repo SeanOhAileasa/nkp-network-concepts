@@ -1109,11 +1109,26 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Binary Math</summary>
 
-- [Binary Math](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMath) <br/>
-    - [Binary to Decimal Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathBinarytoDecimal) <br/>
-    - [Decimal to Binary Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathDecimaltoBinary) <br/>
-- [More Bits then More Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathMoreBitsthenMoreAddresses) <br/>
-    - [Powers Of Two](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/rc/networking-addressing/blob/main/nkp-binary-math.ipynb#networkConceptsBinaryMathPowersOfTwo)
+- [Binary Math](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-binary-math.ipynb#networkConceptsBinaryMath) <br/>
+    - [Binary to Decimal Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-binary-math.ipynb#networkConceptsBinaryMathBinarytoDecimal) <br/>
+    - [Decimal to Binary Conversion](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-binary-math.ipynb#networkConceptsBinaryMathDecimaltoBinary) <br/>
+- [More Bits then More Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-binary-math.ipynb#networkConceptsBinaryMathMoreBitsthenMoreAddresses) <br/>
+    - [Powers Of Two](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-binary-math.ipynb#networkConceptsBinaryMathPowersOfTwo)
+</details>
+
+<details close>
+	<summary>IPv4 Addresses</summary>
+
+- [Configuring Layer 3 Devices](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsConfiguringLayer3Devices) <br/><br/>
+    - [IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsIPAddress) <br/><br/>
+    - [Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSubnetMask) <br/><br/>
+    - [Default Gateway - Router IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsDefaultGateway) <br/><br/>
+- [Special IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4Addresses) <br/><br/>
+    - [Loopback Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddress) <br/><br/>
+        - [[``127.0.0.1``,``127.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddressRange) <br/><br/>
+    - [Reserved Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddress) <br/><br/>
+        - [[``240.0.0.1``,``255.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddressRange) <br/><br/>
+- [Virtual IP Address - VIP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsVirtualIPAddressVIP)
 </details>
 
 ## Credits
