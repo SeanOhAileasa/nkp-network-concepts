@@ -1243,6 +1243,34 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
     - [Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6AddressSubnetAddress)
 </details>
 
+<details close>
+    <summary>Calculating IPv4 Subnets and Hosts</summary>
+
+- [Subnet the Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#subnettheNetwork) <br/>
+- [Variable Length Subnet Masks - VLSM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSM) <br/>
+    - [Classless Addressing](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+        - [``10.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+            - [``255.0.0.0/8``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+        - [Borrowing Subnet Bits](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnetBorrow) ``16`` <br/>
+            - [``255.255.255.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnetBorrow) <br/>
+- [Calculating Subnets and Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+    - [``10.1.1.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalNetworks) <br/>
+            - [``65,536``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalNetworks) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalHosts) <br/>
+            - [``254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalHosts) <br/>
+    - [``192.168.11.0/26``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+            - [``4``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+            - [``62``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+    - [``172.16.55.0/21``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+            - [``32``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
+            - [``2046``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts)
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
