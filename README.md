@@ -1119,16 +1119,71 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>IPv4 Addresses</summary>
 
-- [Configuring Layer 3 Devices](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsConfiguringLayer3Devices) <br/><br/>
-    - [IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsIPAddress) <br/><br/>
-    - [Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSubnetMask) <br/><br/>
-    - [Default Gateway - Router IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsDefaultGateway) <br/><br/>
-- [Special IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4Addresses) <br/><br/>
-    - [Loopback Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddress) <br/><br/>
-        - [[``127.0.0.1``,``127.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddressRange) <br/><br/>
-    - [Reserved Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddress) <br/><br/>
-        - [[``240.0.0.1``,``255.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddressRange) <br/><br/>
+- [Configuring Layer 3 Devices](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsConfiguringLayer3Devices) <br/>
+    - [IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsIPAddress) <br/>
+    - [Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSubnetMask) <br/>
+    - [Default Gateway - Router IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsDefaultGateway) <br/>
+- [Special IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4Addresses) <br/>
+    - [Loopback Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddress) <br/>
+        - [[``127.0.0.1``,``127.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesLoopbackAddressRange) <br/>
+    - [Reserved Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddress) <br/>
+        - [[``240.0.0.1``,``255.255.255.254``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsSpecialIPv4AddressesReservedAddressRange) <br/>
 - [Virtual IP Address - VIP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-addresses.ipynb#networkConceptsVirtualIPAddressVIP)
+</details>
+
+<details close>
+	<summary>Classful Subnetting</summary>
+	
+- [Early IP Protocol Subnet Masks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasks) <br/>
+    - [Class A Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassA) <br/>
+        - [[``255.0.0.0``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassA) <br/>
+    - [Class B Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassB) <br/>
+        - [[``255.255.0.0``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassB) <br/>
+    - [Class C Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassC) <br/>
+        - [[``255.255.255.0``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#networkConceptsEarlyIPProtocolSubnetMasksClassC) <br/>
+- [Class-based Subnet Masks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassBasedSubnetMasks) <br/>
+    - [Subnet Classes Associated IP Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#SubnetClasses) <br/>
+        - [Class A IP Addresses 1st Octet](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassAIPAddresses) <br/>
+            - [[``1``,``126``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassAIPAddresses) <br/>
+                - [(``0``,``127``)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassAIPAddresses) <br/>
+        - [Class B IP Addresses 1st Octet](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassBIPAddresses) <br/>
+            - [[``128``,``191``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassBIPAddresses) <br/>
+                - [(``127``,``192``)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassBIPAddresses) <br/>
+        - [Class C IP Addresses 1st Octet](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassCIPAddresses) <br/>
+            - [[``192``,``223``]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassCIPAddresses) <br/>
+                - [(``191``,``224``)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassBIPAddresses) <br/>
+        - [Class D Multicast and Class E Reserved](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ClassOtherIPAddresses) <br/>
+    - [IP Address Associated Class](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``17.22.90.7``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class A](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``220.10.77.40``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class C](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``165.245.0.1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class B](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``128.90.10.2``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class B](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``191.77.24.250``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class B](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+        - [``192.1.12.5``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+            - [Class C](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#ipAddressAssociatedClass) <br/>
+- [Subnet Construction](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetConstruction) <br/>
+    - [Network Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetConstructionNetworkAddress) <br/>
+    - [Host Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetConstructionHostAddress) <br/>
+    - [Network Broadcast Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetConstructionNetworkBroadcastAddress) <br/>
+- [Subnet Calculations](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
+    - [``10.74.222.11``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
+        - [Class A](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
+            - [Default Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
+                - [``255.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
+        - [Network Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsNetworkAddress) <br/>
+            - [``10.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsNetworkAddress) <br/>        
+        - [\[``Host Address,``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsFirstHostAddress) <br/>
+            - [``10.0.0.1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsFirstHostAddress) <br/>        
+        - [Broadcast Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsBroadcastAddress) <br/>
+            - [``10.255.255.255``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsBroadcastAddress) <br/>
+        - [``,Host Address``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsLastHostAddress) <br/>
+            - [``10.255.255.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsLastHostAddress) <br/>
+- [Classful Subnetting](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#classfulSubnetting)
 </details>
 
 ## Credits
