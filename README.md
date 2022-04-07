@@ -1271,6 +1271,29 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
             - [``2046``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts)
 </details>
 
+<details close>
+    <summary>Assigning IPv4 Addresses</summary>
+
+- [Assigning IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#networkConceptsAssigningIPv4Addresses) <br/>
+    - [Bootstrap Protocol - BOOTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#networkConceptsAssigningIPv4AddressesBOOTP) <br/>
+        - [Dynamic Host Configuration Protocol - DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCP) <br/>
+            - [DHCP Pool](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPDHCPPool) <br/>
+        - [Turning Dynamic into Static](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStatic) <br/>
+            - [Manual Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
+                - [Disable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
+            - [IP Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
+                - [Enable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>                
+                    - [Server MAC Associate IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
+    - [Automatic Private IP Addressing - APIPA](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPA) <br/>
+        - [Link-Local Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPA) <br/>
+            - [Reserved](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>          
+                - [\[``169.254.0.1,169.254.255.254``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>   
+            - [Functional](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>                          
+                - [\[``169.254.1.0,169.254.254.255``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>
+        - [Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAConfiguration) <br/>
+            - [``169.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAConfiguration)        
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
