@@ -1189,43 +1189,58 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>IPv4 Subnet Masks</summary>
 
-- [The Subnet Masks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbtheSubnetMask) <br/>
-    - < [Classless Inner Domain Routing - CIDR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbclasslessInnerDomainRoutingCIDR) | [Prefix Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbclasslessInnerDomainRoutingCIDR) | [Slash Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbclasslessInnerDomainRoutingCIDR) > <br/>
-        - [Binary to CIDR-block Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-            - [``11111111.11111111.00000000.00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                - [``/16``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Network 16 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Host 16 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-            - [``11111111.11111111.11111111.11000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                - [``/26``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Network 26 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Host 6 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/> 
-            - [``11111111.11110000.00000000.00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                - [``/12``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Network 12 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>
-                    - [``Host 20 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblocknotation) <br/>                     
-    - [Binary to Decimal](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-        - [Chart](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``10000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``128``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``192``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11100000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``224``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11110000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``240``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11111000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``248``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11111100``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``252``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11111110``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-            - [``11111111``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-                - [``255``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoDecimal) <br/>
-        - [Binary to CIDR-block Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbbinarytoCIDRblockNotation) <br/>          
-- [CIDR Notation to Binary](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynbcIDRNotationtoBinary)
+- [The Subnet Masks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#theSubnetMask) <br/>
+    - < [Classless Inner Domain Routing - CIDR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#classlessInnerDomainRoutingCIDR) | [Prefix Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#classlessInnerDomainRoutingCIDR) | [Slash Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#classlessInnerDomainRoutingCIDR) > <br/>
+        - [Binary to CIDR-block Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+            - [``11111111.11111111.00000000.00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                - [``/16``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Network 16 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Host 16 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+            - [``11111111.11111111.11111111.11000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                - [``/26``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Network 26 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Host 6 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/> 
+            - [``11111111.11110000.00000000.00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                - [``/12``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Network 12 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>
+                    - [``Host 20 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblocknotation) <br/>                     
+    - [Binary to Decimal](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+        - [Chart](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``00000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``10000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``128``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11000000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``192``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11100000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``224``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11110000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``240``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11111000``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``248``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11111100``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``252``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11111110``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+            - [``11111111``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+                - [``255``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoDecimal) <br/>
+        - [Binary to CIDR-block Notation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#binarytoCIDRblockNotation) <br/>          
+- [CIDR Notation to Binary](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv4-subnet-masks.ipynb#cIDRNotationtoBinary)
+</details>
+
+<details close>
+    <summary>IPv6 Subnet Masks</summary>
+    
+- [Internet Assign Numbers Authority - IANA](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#internetAssignNumbersAuthorityIANA) <br/>
+    - [Regional Internet Registries - RIRs](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#regionalInternetRegistriesRIRs) <br/>
+        - [Internet Service Provider - ISP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#internetServiceProviderISP) <br/>
+            - [Customer](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#internetServiceProviderISPCustomer) <br/>
+- [Subnetting the IPv6 Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6Address) <br/>
+    - [Global Routing Prefix](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6AddressGlobalRoutingPrefix) | [``48 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6AddressGlobalRoutingPrefix) <br/>
+        - [Assigning Subnet](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#globalRoutingPrefixAssigningSubnets) | [``16 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6AddressGlobalRoutingPrefix) <br/>
+            - [IPv6 Address Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#globalRoutingPrefixAssigningSubnetsNetworkAddress) | [``64 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#globalRoutingPrefixAssigningSubnetsNetworkAddress) <br/>
+            - [IPv6 Address Host](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#globalRoutingPrefixAssigningSubnetsHost) | [``64 bits``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#globalRoutingPrefixAssigningSubnetsHost) <br/>
+    - [Subnet Mask](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-ipv6-subnet-masks.ipynb#subnettingtheIPv6AddressSubnetAddress)
 </details>
 
 ## Credits
