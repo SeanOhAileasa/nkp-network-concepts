@@ -1272,6 +1272,12 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 </details>
 
 <details close>
+    <summary>Seven Second Subnetting</summary>
+
+- [Seven Second Subnetting](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-seven-second-subnetting.ipynb) 
+</details>
+
+<details close>
     <summary>Assigning IPv4 Addresses</summary>
 
 - [Assigning IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#networkConceptsAssigningIPv4Addresses) <br/>
