@@ -1177,11 +1177,11 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
                 - [``255.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculations) <br/>
         - [Network Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsNetworkAddress) <br/>
             - [``10.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsNetworkAddress) <br/>        
-        - [\[``Host Address,``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsFirstHostAddress) <br/>
+        - [``Host Address``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsFirstHostAddress) ``[0]`` <br/>
             - [``10.0.0.1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsFirstHostAddress) <br/>        
         - [Broadcast Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsBroadcastAddress) <br/>
             - [``10.255.255.255``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsBroadcastAddress) <br/>
-        - [``,Host Address``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsLastHostAddress) <br/>
+        - [``Host Address``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsLastHostAddress) ``[len(ADDR)-1]`` <br/>
             - [``10.255.255.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#subnetCalculationsLastHostAddress) <br/>
 - [Classful Subnetting](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-classful-subnetting.ipynb#classfulSubnetting)
 </details>
@@ -1246,52 +1246,52 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Calculating IPv4 Subnets and Hosts</summary>
 
-- [Subnet the Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#subnettheNetwork) <br/>
-- [Variable Length Subnet Masks - VLSM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSM) <br/>
-    - [Classless Addressing](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
-        - [``10.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
-            - [``255.0.0.0/8``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
-        - [Borrowing Subnet Bits](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnetBorrow) ``16`` <br/>
-            - [``255.255.255.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#variableLengthSubnetMasksVLSMDefineSubnetBorrow) <br/>
-- [Calculating Subnets and Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-    - [``10.1.1.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalNetworks) <br/>
-            - [``65,536``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalNetworks) <br/>
-        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalHosts) <br/>
-            - [``254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHostsTotalHosts) <br/>
-    - [``192.168.11.0/26``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-            - [``4``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-            - [``62``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-    - [``172.16.55.0/21``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-            - [``32``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts) <br/>
-            - [``2046``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts#calculatingSubnetsandHosts)
+- [Subnet the Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#subnettheNetwork) <br/>
+- [Variable Length Subnet Masks - VLSM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSM) <br/>
+    - [Classless Addressing](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+        - [``10.0.0.0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+            - [``255.0.0.0/8``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSMDefineSubnet) <br/>
+        - [Borrowing Subnet Bits](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSMDefineSubnetBorrow) ``16`` <br/>
+            - [``255.255.255.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#variableLengthSubnetMasksVLSMDefineSubnetBorrow) <br/>
+- [Calculating Subnets and Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+    - [``10.1.1.0/24``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHostsTotalNetworks) <br/>
+            - [``65,536``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHostsTotalNetworks) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHostsTotalHosts) <br/>
+            - [``254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHostsTotalHosts) <br/>
+    - [``192.168.11.0/26``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+            - [``4``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+            - [``62``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+    - [``172.16.55.0/21``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+        - [Possible Networks](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+            - [``32``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+        - [Possible Hosts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts) <br/>
+            - [``2046``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-calculating-ipv4-subnets-and-hosts.ipynb#calculatingSubnetsandHosts)
 </details>
 
 <details close>
     <summary>Assigning IPv4 Addresses</summary>
 
-- [Assigning IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#networkConceptsAssigningIPv4Addresses) <br/>
-    - [Bootstrap Protocol - BOOTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#networkConceptsAssigningIPv4AddressesBOOTP) <br/>
-        - [Dynamic Host Configuration Protocol - DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCP) <br/>
-            - [DHCP Pool](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPDHCPPool) <br/>
-        - [Turning Dynamic into Static](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStatic) <br/>
-            - [Manual Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
-                - [Disable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
-            - [IP Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
-                - [Enable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>                
-                    - [Server MAC Associate IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
-    - [Automatic Private IP Addressing - APIPA](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPA) <br/>
-        - [Link-Local Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPA) <br/>
-            - [Reserved](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>          
-                - [\[``169.254.0.1,169.254.255.254``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>   
-            - [Functional](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>                          
-                - [\[``169.254.1.0,169.254.254.255``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>
-        - [Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAConfiguration) <br/>
-            - [``169.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses#automaticPrivateIPAddressingAPIPAConfiguration)        
+- [Assigning IPv4 Addresses](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#networkConceptsAssigningIPv4Addresses) <br/>
+    - [Bootstrap Protocol - BOOTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#networkConceptsAssigningIPv4AddressesBOOTP) <br/>
+        - [Dynamic Host Configuration Protocol - DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCP) <br/>
+            - [DHCP Pool](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPDHCPPool) <br/>
+        - [Turning Dynamic into Static](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStatic) <br/>
+            - [Manual Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
+                - [Disable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticManualConfiguration) <br/>
+            - [IP Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
+                - [Enable DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>                
+                    - [Server MAC Associate IP Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#dynamicHostConfigurationProtocolDHCPTurningDynamicintoStaticIPReservation) <br/>
+    - [Automatic Private IP Addressing - APIPA](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPA) <br/>
+        - [Link-Local Address](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPA) <br/>
+            - [Reserved](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>          
+                - [\[``169.254.0.1,169.254.255.254``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAReservedAddresses) <br/>   
+            - [Functional](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>                          
+                - [\[``169.254.1.0,169.254.254.255``\]](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAFunctionalAddresses) <br/>
+        - [Configuration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAConfiguration) <br/>
+            - [``169.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAConfiguration)        
 </details>
 
 ## Credits
