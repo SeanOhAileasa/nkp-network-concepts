@@ -1380,9 +1380,9 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
     <summary>Network Topologies</summary>
 
 - Map [Diagram] <br/>
-    - [Physical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#physicalNetworkMap) <br/>
-    - [Logical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#logicalNetworkMap) <br/>
-- [Topologies](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#networkConceptsNetworkTopologies) <br/>
+    - [Physical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-network-topologies.ipynb#physicalNetworkMap) <br/>
+    - [Logical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-network-topologies.ipynb#logicalNetworkMap) <br/>
+- [Topologies](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-network-topologies.ipynb#networkConceptsNetworkTopologies) <br/>
     - Star (Switch Networks) <br/>
     - Ring (Metropolitan Area Network and Wide Area Network) <br/>
         - Dual [Fault tolerance] <br/>
@@ -1400,6 +1400,50 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
         - Mesh (Internet of Things) <br/>
             - Self Form [Mesh Cloud] <br/>
                 - Self Heal
+</details>
+
+<details close>
+    <summary>Common Network Types</summary>
+
+- [Common Network Types](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-common-network-types.ipynb#networkConceptsCommonNetworkTypes) <br/>
+	- Local Area Network - LAN <br/>
+        - Ethernet <br/>
+        - Wireless ``802.11`` <br/>
+	- Wireless LAN - WLAN [Exclusive] <br/>
+        - ``802.11`` <br/>
+            - Access Points [Expand] <br/>
+	- Metropolitan Area Network - MAN <br/>
+        - City Network [Government Ownership] <br/>
+            - ``>`` LAN [``<`` WAN] <br/>
+	- Wide Area Network - WAN <br/>
+        - ``>`` MAN [Connects LANs across a Distance] <br/>        
+            - Point-to-point Serial Connection [Technology] <br/> 
+            - Multiprotocol Label Switching (MPLS) Connection [Technology] <br/> 
+            - Satellite Connection [Technology] <br/>
+                - Non-terrestial Links <br/> 
+	- Campus Area Network - CAN <br/>
+        - Building in Office Block [College Campus] <br/>
+            - Limited Geographical Area <br/> 
+                - Fiber Connection [Technology] <br/> 
+                    - No 3rd Party Provider [Own Fiber in Ground] <br/> 
+                - High-speed Ethernet [Technology] <br/> 
+- [Connect Hard Drive](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-common-network-types.ipynb#connectHardDrive) <br/>
+    - Network Attached Storage - NAS <br/>
+        - Remote Shared Storage <br/>
+            - File-level Access <br/>
+                - Change Part of File [Replace Entire File] <br/>
+    - Storage Area Network - SAN <br/>
+        - Extension of Computer [Look / Feel Local Storage Device] <br/>
+            - Block-level Access [Efficient Reading & Writing] <br/>
+                - Change Part of File [Blocks Changed Only] <br/>  
+                    - ``!=`` Entire File <br/>
+    - Requires a lot of Bandwidth (Reading / Writing) [NAS & SAN] <br/>
+        - Connect via High-speed Network Topologies <br/>      
+- [Personal Area Network - PAN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-common-network-types.ipynb#personalAreaNetworkPAN) <br/>
+    - Private Network <br/>
+        - Bluetooth [Device Connection] <br/>
+        - Infrared [Device Connection] <br/>
+        - Near-Field Communication - NFC [Device Connection] 
 </details>
 
 ## Credits
