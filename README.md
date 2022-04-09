@@ -1300,6 +1300,80 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
             - [``169.254``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv4-addresses.ipynb#automaticPrivateIPAddressingAPIPAConfiguration)        
 </details>
 
+<details close>
+    <summary>Assigning IPv6 Addresses</summary>
+    
+- [DHCPv6](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv6-addresses.ipynb#networkConceptsAssigningIPv6Addresses) <br/>
+    - Stateful Dynamic Host Configuration Protocol Version 6 (DHCPv6) <br/>
+        - IPv6 Interface Configuration [``!=`` Broadcasts] <br/>
+            - Link-Local ADDR [Automatic] <br/>
+                - ``fE80`` <br/>
+            - Multicast <br/>
+                - Client ``udp/546`` <br/>
+                - Server ``udp/547`` <br/>
+        - DHCPv6 Steps <br/>
+            - Client ``fe80:aabb:ccff:fedd:eeff`` <br/>                           
+                - i. DHCPv6 Solicit Message <br/>
+                    - Multicast ADDR <br/>
+                        - ``udp/547`` [Server] <br/>
+                            - ``[ff02::1:2]:547`` <br/>
+                                - DHCP Server [Seek] <br/>
+            - Server ``fe80::0011:22ff:fe33:5566`` <br/>
+                - ii. DHCPv6 Advertise Message <br/>
+                    - ``udp/546`` [Client] <br/> 
+                        - Associated IP ADDR <br/>
+            - Client <br/>
+                - List All Adverticement [DHCP Servers] <br/>
+                    - iii. DHCPv6 Request Message <br/>
+                        - Multicast ADDR <br/>
+                            - ``udp/547`` [Server] <br/>
+                                - ``[ff02::1:2]:547`` <br/>
+                                    - Picks x1 <br/>
+            - Server <br/>
+                - iv. DHCPv6 Reply Message <br/>
+                    - ``udp/546`` [Client] <br/>
+                        - Client Configures IP ADDR Assigned <br/>
+- [IPv6 Prefix - Modified MAC](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv6-addresses.ipynb#networkConceptsAssigningIPv6AddressesOther) <br/>
+    - Static IP [ADDR Never Changes] <br/>
+        - Media Access Control - MAC [ADDR Never Changes] <br/>
+            - Physical Address [Network Interface Card - Ethernet Network] <br/>
+                - ``EUI-48`` ADDR [Extended Unique Identifier] <br/>
+                    - ``48-bit`` [MAC ADDR] <br/>
+                        - Organizationally Unique Identifer (OUI) <br/>
+                            - Manufacturer <br/>
+                                - ``24-bit`` <br/>
+                        - Network Interface Controller-Specific <br/>
+                            - Serial Number <br/>
+                                - ``24-bit`` <br/>
+    - Modify MAC ADDR [Create Static IPv6 ADDR] <br/>
+        - Extended Unique Identifier - EUI ADDR <br/>
+            - ``64-bit`` <br/>
+                - MAC ADDR <br/>
+                    - ``48-bit`` [Create ``64-bit`` EUI ADDR] <br/>
+        - Converting EUI-48 TO EUI-64 <br/>
+            - Modifying MAC <br/>
+                - Split ``24-bit`` <br/>
+                    - Insert Middle ``16-bit`` <br/>
+                        - ``FFFE`` <br/>
+                - Change Original MAC ADDR ``8c2d:aa`` <br/>
+                    - Modify Seventh Bit <br/>
+                        - Burned-in ADDR - BIA <br/>
+                            - Locally Administered ADDR ``U/L`` [Universal / Local] <br/>
+                                - ``0`` to ``1`` [``8e2d:aa``] <br/>
+    - Build IPv6 ADDR <br/> 
+        - Routers [Local Subnet] <br/>
+            - Send Neighbour Discovery Protocol - NDP <br/>
+                - IPv6 Subnet Prefix ``2600:dddd:1111:0001`` <br/>
+                    - ``64-bit`` <br/>
+        - EUI-64 ADDR [Remaining ``64-bit``] <br/>
+            - ``3-byte`` MAC <br/>
+                - Modified MAC ADDR ``8e2d:aa`` <br/>
+            - ``2-byte`` <br/>
+                - ``FFFE`` <br/>
+            - ``3-byte`` MAC [Unchanged Remaining] <br/>
+- [Converting EUI-48 TO EUI-64 - Flipping the 7th bit](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv6-addresses.ipynb#ConvertingEUI48TOEUI64Flippingthe7thbit)
+</details>                                    
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
