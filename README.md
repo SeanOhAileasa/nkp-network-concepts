@@ -1446,6 +1446,56 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
         - Near-Field Communication - NFC [Device Connection] 
 </details>
 
+<details close>
+    <summary>Internet of Things Topologies</summary>
+
+- [Internet of Things Topologies]((https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-internet-of-things-topologies.ipynb#networkConceptsInternetofThingsTopologies) <br/>
+	- Z-wave [IoT Technology Category] <br/>
+        - Home Automation Networking <br/>
+            - Wireless Mesh Network <br/>
+                - Nodes Hop through Other Nodes <br/>
+		- Frequency ``900 MHz`` [Communication] <br/>
+            - Industrial Scientific and Medical (ISN) Band <br/>
+                - ``!=`` License to use Frequencies <br/>
+                - ``!=`` Conflicts with other ``802.11`` Devices <br/>
+	- ANT/ANT+ [Wireless Network Protocols] <br/>
+		- Frequencey ``2.4 GHz`` [Communication] <br/>
+            - Industrial Scientific and Medical (ISN) Band <br/>
+                - Ultra-Low-Power Protocol <br/>
+                    - ``!=`` (``802.11`` ``||`` Bluetooth) <br/>
+                        - Separate Wireless Service <br/>
+            - Denial of Service [Spectrum can be Jammed] <br/>
+            - Optional Encryption [``!=`` Required for Communication] <br/>
+	- Bluetooth <br/>
+        - Personal Area Network - PAN <br/>
+	- Near Field Communication - NFC [Mobile Phone] <br/>
+        - Two-way Wireless Communication <br/>
+            - Payment Systems <br/>
+                - Credits Cards <br/>
+                - Online Wallets <br/>
+            - With Other Network Types [Bootstrap other Wireless] <br/>
+                - Bluetooth Pairing <br/>
+            - Access Token [Identity Card] <br/>
+                - Short Range with Encryption Support <br/>            
+                    - Electronic Locks <br/>
+	- Infrared - IR <br/>
+        - Integrated on Smartphones & Tablets & Smartwatches <br/>
+            - ``!=`` File Transfers ``||`` Printing [Historic] <br/>
+                - Entainment Centre via Mobile Device [Today] <br/>
+	- Radio-Frequency Identification - RFID <br/>
+		- Radio Energy [Transmitted to Tag] <br/>
+            - RF Powers Tag <br/>
+                - Tag Transmits Back ID [Bidirectional Wireless Communication] <br/>
+                   - Some Tag Formats can be Active / Powered <br/>
+        - Access Badges <br/>
+        - Inventory / Assembly Line Tracking <br/>
+        - Pet / Animal Identificaiton <br/>
+        - Anything Needing Tracking <br/>
+	- IEEE ``802.11`` [Wireless Networks] <br/>
+        - IEEE LAN / MAN <br/>
+            - WiFi Trademark [Compatibility]       
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
