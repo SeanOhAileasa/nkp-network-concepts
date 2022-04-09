@@ -1496,6 +1496,8 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
             - WiFi Trademark [Compatibility]       
 </details>
 
+##### ``Wireless Technologies``
+
 <details close>
     <summary>Wireless Standards</summary>
 
@@ -1545,6 +1547,23 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
                 - Twice as many Streams as ``802.11n`` <br/>
                     - ``7 GBits/s`` Throughput [Theory] <br/>
     ![Summary](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/802-11-networking.png?raw=true)
+</details>
+
+<details close>
+    <summary>Cellular Network Standards</summary>
+    
+- [Cellular Network Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-cellular-network-standards.ipynb#networkConceptsCellularNetworkStandards) <br/>
+    - 2G Networks <br/>
+        - Circuit Switching <br/>
+            - i. Global System for Mobile Communications (GSM) <br/>
+                - Time Division Multiple Access (TDMA) Multiplexing <br/>
+            - ii. Code Division Multiple Access (CDMA) <br/>
+    - 4G Networks <br/>
+        - Long Term Evolution (LTE) <br/>
+            - GSM and EDGE (Enhanced Data Rates for GSM Evolution) <br/>
+            - Download Data Rates up to ``150 Mbits/s``  <br/> 
+        - LTE Advanced <br/> 
+            - Download Data Rates up to ``300 Mbits/s``
 </details>
 
 ## Credits
