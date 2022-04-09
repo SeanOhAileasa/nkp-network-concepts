@@ -1449,7 +1449,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Internet of Things Topologies</summary>
 
-- [Internet of Things Topologies]((https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-internet-of-things-topologies.ipynb#networkConceptsInternetofThingsTopologies) <br/>
+- [Internet of Things Topologies](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-internet-of-things-topologies.ipynb#networkConceptsInternetofThingsTopologies) <br/>
 	- Z-wave [IoT Technology Category] <br/>
         - Home Automation Networking <br/>
             - Wireless Mesh Network <br/>
@@ -1494,6 +1494,57 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 	- IEEE ``802.11`` [Wireless Networks] <br/>
         - IEEE LAN / MAN <br/>
             - WiFi Trademark [Compatibility]       
+</details>
+
+<details close>
+    <summary>Wireless Standards</summary>
+
+- [``802.11`` Wireless Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-internet-of-things-topologies.ipynb#networkConcepts80211WirelessStandards) <br/>
+	- ``802.11a`` [October 1999 - Not Commonly Seen Today] <br/>
+		- ``5 GHz`` Frequency Range [Smaller Range Than ``802.11b``] <br/>
+            - Absorbed by Objects [High Frequency] <br/>
+                - Calculate Third Range of ``802.11b`` or ``802.11g`` <br/>
+        - ``54 Mbit/s`` Throughput <br/>
+	- ``802.11b`` [Released Simultaneously with ``801.11a`` Standard] <br/>
+		- ``2.4 GHz`` Frequency Range [Better Range Than ``802.11b``] <br/>
+            - Less Absortion Problems <br/>
+                - Bounce off of Objects <br/>
+            - Communication Conflicts [Other Devices @ ``2.4 GHz`` Frequency] <br/>
+                - Baby Monitors [Operate @ ``2.4 GHz``] <br/>
+                - Cordless Phones [Operate @ ``2.4 GHz``] <br/>
+                - Microware Ovens [Operate @ ``2.4 GHz``] <br/>
+                - Bluetooth Communications [Operate @ ``2.4 GHz``] <br/>
+        - ``11 Mbits/s`` Throughput [Maximum] <br/>
+	- ``802.11g`` [June 2003] <br/>
+        - Upgrade to ``802.11b`` <br/>
+            - Backwards Compatible with ``802.11b`` <br/>
+                - ``802.11g`` Access Point can Accommodate ``802.11b`` Clients <br/>
+		- ``2.4 GHz`` Frequency Range [Issues as ``802.11b``] <br/>
+            - Communication Conflicts [Other Devices @ ``2.4 GHz`` Frequency] <br/>
+        - ``54 Mbit/s`` Throughput [Similar to ``802.11a``] <br/>        
+	- ``802.11n`` [October 2009] <br/>
+        - Upgrade to ``802.11g`` & ``802.11b`` & ``802.11a`` <br/>
+		- ``5 GHz`` and / or ``2.4 GHz`` Frequency Range <br/>
+            - Channel Bandwidths of ``40 MHz`` [``>`` Previous ``802.11`` Versions] <br/>
+        - ``600 Mbit/s`` Throughput <br/>
+            - Via ``40 MHz`` Channel Width [``4`` Antennas] <br/>
+                - Sending Multiple Streams of Data Simultaneously <br/>
+		- Multiple Input Multiple Output - MIMO [1st Version] <br/>
+            - Send Multiple Streams over Same Frequency <br/>
+                - Multiple Antennas / Radios [Send the Data] <br/>
+	- ``802.11ac`` [January 2014] <br/>
+        - Significant Improvement Over ``802.11n`` <br/>
+        - ``5 GHz`` Frequency Range [Exclusively] <br/>
+            - Some ``802.11ac`` Routers Communicate over ``5 GHz`` & ``2.4 GHz`` <br/>
+                - ``2.4 GHz`` Communication via ``802.11n`` <br/>
+            - Channel Bandwidths of ``160 MHz`` [``5 GHz`` Less Crowded & More Frequencies] <br/>
+            - Channel Bonding [Creating Larger Channel Bandwidths] <br/>
+            - Denser Signalling Modulation [Faster Data Transfers] <br/>
+        - Multi-User Mulitiple Input Multiple Output (MU-MIMO) <br/>
+            - Eight MU-MIMO <br/>
+                - Twice as many Streams as ``802.11n`` <br/>
+                    - ``7 GBits/s`` Throughput [Theory] <br/>
+    ![Summary](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/802-11-networking.png?raw=true)
 </details>
 
 ## Credits
