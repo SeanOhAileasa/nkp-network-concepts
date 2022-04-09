@@ -1372,7 +1372,35 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
                 - ``FFFE`` <br/>
             - ``3-byte`` MAC [Unchanged Remaining] <br/>
 - [Converting EUI-48 TO EUI-64 - Flipping the 7th bit](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/nkp-assigning-ipv6-addresses.ipynb#ConvertingEUI48TOEUI64Flippingthe7thbit)
-</details>                                    
+</details>           
+
+##### ``Network Topologies``
+
+<details close>
+    <summary>Network Topologies</summary>
+
+- Map [Diagram] <br/>
+    - [Physical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#physicalNetworkMap) <br/>
+    - [Logical Network](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#logicalNetworkMap) <br/>
+- [Topologies](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/networking-addressing/network-topologies/nkp-network-topologies.ipynb#networkConceptsNetworkTopologies) <br/>
+    - Star (Switch Networks) <br/>
+    - Ring (Metropolitan Area Network and Wide Area Network) <br/>
+        - Dual [Fault tolerance] <br/>
+    - Mesh (Wide Area Networks) <br/>
+        - Additional Fault Tolerance [Redundant] <br/>
+        - Balance Load between Multiple Links <br/>
+    - Bus (Controller Area Network - Can) <br/>
+        - Single Coax Cable <br/>
+            - Automobile <br/>
+    - Wireless ``802.11`` <br/>
+        - Infrastructure <br/>
+            - Access Point <br/>
+        - Ad hoc [No Access Point in the Middle] <br/>
+            - End-stations Configured [Frequency] <br/>
+        - Mesh (Internet of Things) <br/>
+            - Self Form [Mesh Cloud] <br/>
+                - Self Heal
+</details>
 
 ## Credits
 
