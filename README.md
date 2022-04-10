@@ -1639,6 +1639,106 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
             - Spectrum Analyser [Details at Every Frequency]
 </details>
 
+##### ``Cloud Services and Delivery Models``
+
+<details close>
+    <summary>Cloud Services and Delivery Models</summary>
+
+- Services <br/>
+	- Software as a Service (SaaS) <br/>
+		- On-demand Software <br/>
+			- Payroll [3rd Party] <br/>
+		- Central Management of Data & Applications [Cloud] <br/>
+			- External Servers <br/>
+		- Turnkey [No Development Work Required] <br/>
+			- Log-in [All Available to Use] <br/>
+				- Google Mail <br/>
+	- Infrastructure as a Service (IaaS) <br/>
+		- Hardward as a Service (HaaS) [Outsourced Hardware] <br/>
+			- Up to Customer Make Things Happen <br/>
+				- Operating O/S [Customer] <br/>
+				- Management of Devices [Customer] <br/>
+				- Security of Data [Customer] <br/>
+			- Data Still in the Cloud <br/>
+				- More Control [Customer] <br/>
+			- Web Servers Providers <br/>
+				- Provide System [Maybe O/S] <br/>
+					- Up to Customer to Load Software / Applications <br/>
+	- Platform as a Service (PaaS) <br/>
+		- No Physical Servers [Customer Environment] <br/>
+			- ``!=`` Maintain Software <br/>
+			- ``!=`` Maintenance Team <br/>
+			- ``!=`` Heating Ventilation Air Conditioning - HVAC [Datacentre] <br/>
+		- Provider Handles Platform [Cloud] <br/>
+			- Customer Handles the Development Process <br/>
+		- Similar to SaaS [3rd Party] <br/>
+			- ``!=`` Direct Control [Data / People / Infrastructure] <br/>
+			- Trained Professionals Watching System [Ensuring Security] <br/>
+				- Choose Carefully <br/>
+		- Unlike SaaS [Sandbox] <br/>
+			- Building Own Applications [Customer] <br/>
+				- Provide Modular Building Blocks [Develop Perfect Application] <br/>
+			- [Salesforce](https://www.salesforce.com) <br/>
+				- Modular Piece Available on Platform <br/>
+					- Build Custom Application [Customer] <br/>
+- Cloud Deployment Models <br/>
+	- Private [Cloud] <br/>
+		- Virtualised Local Datacentre <br/>
+	- Public [3rd Party] <br/>
+		- Available to Everyone on Internet <br/>
+	- Hybrid [Combination] <br/>
+		- Private & Public [Mix] <br/>
+	- Community [Groups] <br/>
+		- Several Organisation [Share Same Resources] <br/>
+- Local & Cloud Resources <br/>
+	- On-premise [Traditional Deployment Model] <br/>
+		- Complete Control [Hardware / Software / Location] <br/>
+	- Hosted [Outside Customer Environment] <br/> 
+		- Provider is a 3rd Party [Hardware / Software / Location] <br/>  
+	- Cloud [Modular] <br/>
+		- Entire Application Instances can be Created [Torn Down On-demand] <br/>
+			- Resources Available as Needed <br/> 
+				- More CPU Time [Request from Cloud & Allocate] <br/>
+				- More Memory [Request from Cloud & Allocate] <br/>
+				- More Disk Space [Request from Cloud & Allocate] <br/> 
+- Connecting to the Cloud [Application Located Elsewhere] <br/>
+	- Browser-based Application [Security Concern] <br/>
+		- Encrypt Tunnel [Between Device & Application] <br/>
+			- Encryption <br/>
+				- Secure Sockets Layer - SSL <br/>
+				- Transport Layer Security - TLS <br/>
+	- Virtual Private Network (VPN) [Entire Site] <br/>
+		- Encrypt Tunnel [All Traffic between Customer & Cloud] <br/>
+			- Dedicated Hardware [Firewalls] <br/>
+				- Ordinate VPN with 3rd Party [Provider] <br/>
+	- Direct Connection [Security Utmost Importance] <br/>
+		- Co-location (Shared Data Centre) [Own Facilities] <br/>
+			- Direct High-Speed Connection [``10Gb``] <br/>
+				- Own Private Cloud [``!=`` External Traffic] <br/>
+					- Added Security <br/>
+- Managing Cloud Security Policies [Assocaited with Application] <br/>
+	- Clients Working with Application [Data in Cloud & Outside Client Facility] <br/>
+		- Specific Security Controls Created [Apply to Data Located Elsewhere] <br/>
+			- Implement a Cloud Access Security Broker - CASB <br/> 
+				- Software on Client Device <br/>
+				- Appliances Sits between Client & Cloud [Local] <br/>
+				- Cloud-based Control [In the Cloud Itself] <br/>
+			- i. Visibility <br/>
+				- Know Applications Clients using in the Cloud <br/>
+				- Authorised Persons Using the Application <br/>
+			- ii. Compliance <br/>
+				- Health Insurance Portability and Accountability Act - HIPAA <br/>
+				- Payment Card Industry - PCI <br/>
+			- iii. Treat Prevention [Maybe Accessible by Others] <br/>
+				- Allow Authorised Users Only <br/>
+				- Prevent Attacks <br/>
+			- iv. Data Security <br/>
+				- Tranfer between Customer & Cloud [Cloud & Customer] <br/>
+					- Ensure Data Transfers are Encypted <br/>
+				- Personally Identifiable Information - PCI [Security Control] <br/>
+					- Data Loss Prevention - DLP
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
