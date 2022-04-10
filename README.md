@@ -1501,7 +1501,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Wireless Standards</summary>
 
-- [``802.11`` Wireless Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-internet-of-things-topologies.ipynb#networkConcepts80211WirelessStandards) <br/>
+- [``802.11`` Wireless Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/wireless-technologies/nkp-internet-of-things-topologies.ipynb#networkConcepts80211WirelessStandards) <br/>
 	- ``802.11a`` [October 1999 - Not Commonly Seen Today] <br/>
 		- ``5 GHz`` Frequency Range [Smaller Range Than ``802.11b``] <br/>
             - Absorbed by Objects [High Frequency] <br/>
@@ -1552,7 +1552,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Cellular Network Standards</summary>
     
-- [Cellular Network Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-topologies/nkp-cellular-network-standards.ipynb#networkConceptsCellularNetworkStandards) <br/>
+- [Cellular Network Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/wireless-technologies/nkp-cellular-network-standards.ipynb#networkConceptsCellularNetworkStandards) <br/>
     - 2G Networks <br/>
         - Circuit Switching <br/>
             - i. Global System for Mobile Communications (GSM) <br/>
@@ -1564,6 +1564,79 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
             - Download Data Rates up to ``150 Mbits/s``  <br/> 
         - LTE Advanced <br/> 
             - Download Data Rates up to ``300 Mbits/s``
+</details>
+
+<details close>
+    <summary>Wireless Network Technologies</summary>
+    
+- [Wireless Network Technologies](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/wireless-technologies/nkp-wireless-network-technologies.ipynb#networkConceptsWirelessNetworkTechnologies) <br/>
+    - ``802.11`` Networks [Frequency Range: ``2.4 GHz`` or ``5 GHz`` or Both] <br/>
+        - Channels [Groups of Frequencies - Numbered by IEEE] <br/>
+            - ``802.11`` Channel Bandwidths [Frequency Usage at a Particular Time] <br/>
+                - ``802.11a`` <br/>
+                    - Modulation ``20 MHz`` <br/>
+                - ``802.11b`` <br/>
+                    - Modulation ``22 MHz`` <br/>
+                - ``802.11g`` [Same Frequency as ``802.11b``]
+                    - Modulation ``20 MHz`` <br/>
+                - ``802.11n`` <br/>
+                    - Modulation ``20 MHz`` <br/>
+                    - Modulation ``40 MHz`` [Two Contiguous ``20 MHz`` Bonded Channels] <br/>
+                        - ``2.4 GHz`` [``40 MHz`` Channel uses ``>`` 80% of Available Frequencies] <br/>  
+                - ``802.11ac`` <br/>
+                    - Modulation ``40 MHz`` <br/>
+                        - Minimum Channel Bandwidth <br/>
+                    - Modulation ``80 MHz`` <br/>
+                        - Required for ``802.11ac`` Stations <br/>
+                    - Modulation ``160 MHz`` <br/>
+                        - Contiguous Channels or Non-contiguous Bonded Channels <br/>
+    - Band Selection & Bandwidth [Available Frequencies ``2 GHz`` & ``5 GHz`` Range] <br/>
+    ![Summary](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/802-11-spectrum-2-4-ghz-5-ghz-.png?raw=true) <br/>
+    - ``802.11n`` [Before ``n`` Only Send Single Stream of Information] <br/> 
+        - Multiple Input and Multiple Output (MIMO) [Introduced in ``802.11n``] <br/>
+            - Send Multiple Streams of Information [Same Frequencies / Same Time] <br/> 
+    - ``802.11ac``
+        - Multi-user Multiple Input and Multiple Output (MU-MIMO) <br/>
+                - Send to Multiple Users Simultaneously [Same Frequencies / Same Time] <br/> 
+            - Dependent on Numbers of Antennas [Include ``802.11n``] <br/>
+                - Used to Determine the Number of Available Streams <br/>
+                    - (Antennas on Access Point) x (Antennas on Client): Total Streams <br/>
+    - Antennas <br/>
+        - ``802.11a`` - ``802.11b`` - ``802.11g`` (< ``802.11n``) <br/>
+            - ``x1`` Antenna on Access Point (AP) | ``x1`` Antenna on Client <br/>
+                - Communication over Single Frequency [x1 Device to Other] <br/>
+        - ``802.11n`` <br/>
+            - MIMO [New Way to Communicate] <br/>
+                - Signal Bounce of Other Devices <br/>
+                    - Data Reconstructed using Digital Signal Processing [End Device] <br/> 
+                - One Group at a Time <br/>
+        - ``802.11ac`` <br/>
+            - MU-MIMO <br/>
+                - Multiple Streams to send Data to Multiple Clients [Same Frequency] <br/>
+    - Wireless Access Points - AP [Wireless Router] <br/>
+        - Power Level Controls <br/>
+            - Consider Signal Sent Out [Software Configuration] <br/>
+                - Power Level Controls <br/>
+            - Consider Receiver [Antenna] <br/> 
+                - Turn Down Power on AP [Still Maintain Good Level of Communication] <br/>
+        - Omnidirectional Antennas [Omni ``=`` All] <br/>
+            - Distribute Signal Evenly All Sides of Antenna <br/>
+                - Central Location [AP] <br/>
+                - ``!=`` Focus Signal <br/>
+            - Directional Antennas <br/>
+                - Single Direction [Send & Receive] <br/>
+                - Focused Signal [Transmission & Listenin] <br/>
+                - Performance Measured in ``dB`` <br/>
+                    - Double Power every ``3dB`` of Gain <br/>
+                        - Yagi Antennas <br/>
+                            - Very Directional [High Gain] <br/>
+                        - Parabolic Antennas [Curved Surface] <br/>
+                            - Focus Signal to Single Point <br/>
+        - Wireless Survey Tools [Signal Coverage] <br/>
+            - Potential Interference <br/>
+                - Other AP [Other Wireless Devices] <br/>
+            - Built-in Tools [3rd Party Tools] <br/>
+            - Spectrum Analyser [Details at Every Frequency]
 </details>
 
 ## Credits
