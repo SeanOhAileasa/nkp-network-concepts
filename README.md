@@ -603,7 +603,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 - Send IP Packets [Across Network] <br/>
 	- Forwarding Decisions [Based on Destination IP Address] <br/>
-- Routing [Knows the Next Step] <br/>
+- Routing [Knows the network Step] <br/>
 	- Packet asks for Directions [Every Hop Along the Way] <br/>
 		- Directions (Steps) held in a Routing Table <br/>
 	- Static Routing [Define List of Available Routes] <br/>
@@ -627,10 +627,10 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 			- Table Update [Perspective of Particular Router (Router 1)] <br/>
 				- Network Address (Sam) [Route] <br/>
 					- ``10.10.20.0/24`` [Network of Jack] <br/>
-						- Router Address [Next Hop] <br/>
+						- Router Address [network Hop] <br/>
 							- ``10.10.40.2/24`` [Hop to Jack] <br/>					
 					- ``10.10.30.0/24`` [Network of Teal'c] <br/>
-						- Router Address [Next Hop] <br/>
+						- Router Address [network Hop] <br/>
 							- ``10.10.50.2/24`` [Hop to Teal'c] <br/>
 				![Image: Static Routes](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/static-routes.png?raw=true) <br/>
 	- Dynamic Routing <br/>
@@ -680,7 +680,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 			- Enhanced Interior Gateway Routing Protocol (EIGRP) <br/>
 	- IPv6 [Dynamic Routing Protocols] <br/>
 		- Open Shortest Path First Version 3 (OSPFv3) <br/>
-		- Routing Information Protocol next generation (RIPng) <br/>
+		- Routing Information Protocol network generation (RIPng) <br/>
 		- Enhanced Interior Gateway Routing Protocol (EIGRP) for IPv6 <br/>
 - Exterior Gateway Protocol [Route Between AS] <br/>
 	- Leverages IGP at the AS to handle Local Routing <br/>
@@ -1044,7 +1044,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 				- Specifies the Physical and Data Link Layers of Telecom Channels <br/>
 		- Multiprotocol Label Switching (MPLS) <br/>
 			- Routing Technique <br/>
-				- Traffic from One Node to the Next using Labels [``!=`` Addresses] <br/>
+				- Traffic from One Node to the network using Labels [``!=`` Addresses] <br/>
 		- Cable Modem Internet Connection <br/>
 		- Satellite <br/>
 		- Wireless <br/>
@@ -1756,33 +1756,33 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>DNS Record Types</summary>
 
-- [DNS Record Types](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
-    - [Resource Records - RR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
-- [DNS Server Database - Text File](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DNSServerDatabaseTextFile) <br/>
-    - [Associate FQDN to an IP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AssociateFullyQualifiedDomainNameFQDNtoanIPInternetProtocol) <br/>
-        - [Address Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
-            - [IPv4](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
-                - [``A``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
-            - [IPv6](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
-                - [``AAAA``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
-        - [Canonical Name Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
-            - [``CNAME``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
-        - [Service Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#ServiceRecordsSRV) <br/>
-            - [``SRV``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#ServiceRecordsSRV) <br/>
-        - [Mail Exchanger Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#MailExchangerRecordMX) <br/>
-            - [``MX``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#MailExchangerRecordMX) <br/>
-        - [Name Server Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#NameServerRecordNS) <br/>
-            - [``NS``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#NameServerRecordNS) <br/>
-    - [Associate IP to a FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AssociateIPInternetProtocoltoaFullyQualifiedDomainNameFQDN) <br/>
-        - [Pointer Records - PTR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#PointerRecordPTR) <br/>
-            - [``PTR``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#PointerRecordPTR) <br/>        
-    - [3rd Party Accessing DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
-        - [Text Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>  
-            - [``TXT``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
-                - [Sender Policy Framework](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
-                    - [``SPF``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
-                - [Domain Keys Identified Mail - DKIM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM) <br/>
-                    - [``DKIM``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM)
+- [DNS Record Types](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
+    - [Resource Records - RR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
+- [DNS Server Database - Text File](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#DNSServerDatabaseTextFile) <br/>
+    - [Associate FQDN to an IP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AssociateFullyQualifiedDomainNameFQDNtoanIPInternetProtocol) <br/>
+        - [Address Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+            - [IPv4](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+                - [``A``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+            - [IPv6](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+                - [``AAAA``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+        - [Canonical Name Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
+            - [``CNAME``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
+        - [Service Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#ServiceRecordsSRV) <br/>
+            - [``SRV``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#ServiceRecordsSRV) <br/>
+        - [Mail Exchanger Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#MailExchangerRecordMX) <br/>
+            - [``MX``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#MailExchangerRecordMX) <br/>
+        - [Name Server Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#NameServerRecordNS) <br/>
+            - [``NS``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#NameServerRecordNS) <br/>
+    - [Associate IP to a FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#AssociateIPInternetProtocoltoaFullyQualifiedDomainNameFQDN) <br/>
+        - [Pointer Records - PTR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#PointerRecordPTR) <br/>
+            - [``PTR``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#PointerRecordPTR) <br/>        
+    - [3rd Party Accessing DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
+        - [Text Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>  
+            - [``TXT``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
+                - [Sender Policy Framework](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
+                    - [``SPF``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
+                - [Domain Keys Identified Mail - DKIM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM) <br/>
+                    - [``DKIM``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM)
 </details>
 
 <details close>
@@ -1808,6 +1808,31 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
                 - [``Discover``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#DHCPRelayIPHelperDiscover) <br/>
                 - [``Offer``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#DHCPRelayIPHelperOffer) <br/>
         - [IP Address Management - IPAM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#IPAddressManagementIPAM)
+</details>
+
+<details close>
+    <summary>Configuring DHCP</summary>
+
+- [Configuring DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCP) <br/>
+    - [Scope Properties](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPScopeProperties) <br/>
+    - [DHCP Pools](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPScopeDHCPPools) <br/>
+- [DHCP Server](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServer) <br/>
+    - [Windows](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServer) <br/>
+- [DHCP Address Allocation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocation) <br/>
+    - [Dynamic](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocationd) <br/>
+    - [Automatic](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocationa) <br/>
+    - [Static](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocations) | [Static DHCP Assignment](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocations) | [Static DHCP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocations) | [Address Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocations) | [IP Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#ConfiguringDHCPWindowsServerDHCPAddressAllocationDynamicAllocations) <br/>
+        - [Wireless Router](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#WirelessRouterAddressReservation) <br/>
+            - [Address Reservation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#WirelessRouterAddressReservation) <br/>
+- [DHCP Leases](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeases) <br/>
+    - [Allocation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesAllocation) <br/>
+    - [Reallocation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesReallocation) <br/>  
+    - [Reallocation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesReallocation) <br/>  
+    - [Manually Release](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesManuallyRelease) <br/> 
+- [DHCP Renewal](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPRenewal) <br/>  
+    - [T1 Timer](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesReallocation) <br/>  
+    - [T2 Timer](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#DHCPLeasesReallocation) <br/>  
+- [Lease Process](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#LeaseProcess)
 </details>
 
 ## Credits
