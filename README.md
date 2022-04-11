@@ -1835,6 +1835,21 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 - [Lease Process](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-configuring-dhcp.ipynb#LeaseProcess)
 </details>
 
+<details close>
+    <summary>Overview of NTP</summary>
+
+- [Network Time Protocol - NTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NetworkTimeProtocolNTP) <br/>
+    - [Server](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPServer) <br/>
+        - [Stratum Layers](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
+            - [``0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
+            - [``1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
+            - [``2``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
+        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPServerConflguration) <br/>
+    - [Client](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPClient) <br/>
+        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPClientConflguration) <br/>
+- [Strategy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStrategy) 
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
