@@ -1744,6 +1744,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Overview of Domain Name System - DNS</summary>
 
+<<<<<<< HEAD
 - [Overview of Domain Name System (DNS)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-domain-name-system-dns.ipynb#networkConceptsAnOverviewofDNS) <br/>
     - [DNS Hierarchy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-domain-name-system-dns.ipynb#DNSHierarchy) <br/>    
         - [Fully Qualified Domain Name - FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-domain-name-system-dns.ipynb#FullyQualifiedDomainNameFQDN) <br/>
@@ -1808,6 +1809,47 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
                 - [``Discover``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#DHCPRelayIPHelperDiscover) <br/>
                 - [``Offer``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#DHCPRelayIPHelperOffer) <br/>
         - [IP Address Management - IPAM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-dhcp-addressing-overview.ipynb#IPAddressManagementIPAM)
+=======
+- [Overview of Domain Name System (DNS)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#networkConceptsAnOverviewofDNS) <br/>
+    - [DNS Hierarchy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#DNSHierarchy) <br/>    
+        - [Fully Qualified Domain Name - FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#FullyQualifiedDomainNameFQDN) <br/>
+    - [DNS Process](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#DNSProcess) <br/>
+- [Internal DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#InternalDNS) <br/>
+- [External DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#ExternalDNS) <br/>
+- [Third-party DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#ThirdpartyDNS) 
+>>>>>>> 4b6d613a8bde58a5a191a02b6e718c89d40104d7
+</details>
+
+<details close>
+    <summary>DNS Record Types</summary>
+
+- [DNS Record Types](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
+    - [Resource Records - RR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#networkConceptsDNSRecordTypes) <br/>
+- [DNS Server Database - Text File](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DNSServerDatabaseTextFile) <br/>
+    - [Associate FQDN to an IP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AssociateFullyQualifiedDomainNameFQDNtoanIPInternetProtocol) <br/>
+        - [Address Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+            - [IPv4](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+                - [``A``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+            - [IPv6](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+                - [``AAAA``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AddressRecordsAaaaa) <br/>
+        - [Canonical Name Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
+            - [``CNAME``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#CanonicalNameRecordCNAME) <br/>
+        - [Service Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#ServiceRecordsSRV) <br/>
+            - [``SRV``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#ServiceRecordsSRV) <br/>
+        - [Mail Exchanger Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#MailExchangerRecordMX) <br/>
+            - [``MX``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#MailExchangerRecordMX) <br/>
+        - [Name Server Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#NameServerRecordNS) <br/>
+            - [``NS``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#NameServerRecordNS) <br/>
+    - [Associate IP to a FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#AssociateIPInternetProtocoltoaFullyQualifiedDomainNameFQDN) <br/>
+        - [Pointer Records - PTR](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#PointerRecordPTR) <br/>
+            - [``PTR``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#PointerRecordPTR) <br/>        
+    - [3rd Party Accessing DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
+        - [Text Records](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>  
+            - [``TXT``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#3rdPartyAccessingDNS) <br/>            
+                - [Sender Policy Framework](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
+                    - [``SPF``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#SenderPolicyFrameworkSPF) <br/>
+                - [Domain Keys Identified Mail - DKIM](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM) <br/>
+                    - [``DKIM``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/next-services/dns-record-types.ipynb#DomainKeysIdentifiedMailDKIM)
 </details>
 
 ## Credits
