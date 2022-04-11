@@ -1739,6 +1739,20 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 					- Data Loss Prevention - DLP
 </details>
 
+##### ``Network Services``
+
+<details close>
+    <summary>Overview of Domain Name System - DNS</summary>
+
+- [Overview of Domain Name System (DNS)](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#networkConceptsAnOverviewofDNS) <br/>
+    - [DNS Hierarchy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#DNSHierarchy) <br/>    
+        - [FullyQualifiedDomainName - FQDN](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#FullyQualifiedDomainNameFQDN) <br/>
+    - [DNS Process](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#DNSProcess) <br/>
+- [Internal DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#InternalDNS) <br/>
+- [External DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#ExternalDNS) <br/>
+- [Third-party DNS](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/overview-of-domain-name-system-dns.ipynb#ThirdpartyDNS) 
+</details>
+
 ## Credits
 
 J. "Professor" Messer, "CompTIA Network+ (N10-007) Course Notes," [professormesser.com](https://web.archive.org/web/20220404153917/https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/), March 2019.
