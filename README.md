@@ -1838,16 +1838,16 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Overview of NTP</summary>
 
-- [Network Time Protocol - NTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NetworkTimeProtocolNTP) <br/>
-    - [Server](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPServer) <br/>
-        - [Stratum Layers](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
-            - [``0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
-            - [``1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
-            - [``2``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStratumLayers) <br/>
-        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPServerConflguration) <br/>
-    - [Client](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPClient) <br/>
-        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPClientConflguration) <br/>
-- [Strategy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp#NTPStrategy) 
+- [Network Time Protocol - NTP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NetworkTimeProtocolNTP) <br/>
+    - [Server](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPServer) <br/>
+        - [Stratum Layers](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPStratumLayers) <br/>
+            - [``0``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPStratumLayers) <br/>
+            - [``1``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPStratumLayers) <br/>
+            - [``2``](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPStratumLayers) <br/>
+        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPServerConflguration) <br/>
+    - [Client](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPClient) <br/>
+        - [Conflguration](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPClientConflguration) <br/>
+- [Strategy](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/network-services/nkp-overview-of-ntp.ipynb#NTPStrategy) 
 </details>
 
 ## Credits
