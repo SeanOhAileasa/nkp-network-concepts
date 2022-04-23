@@ -1522,7 +1522,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
     <summary>Wireless Standards</summary>
 
-- [``802.11`` Wireless Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/wireless-technologies/nkp-internet-of-things-topologies.ipynb#networkConcepts80211WirelessStandards) <br/>
+- [``802.11`` Wireless Standards](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/wireless-technologies/nkp-wireless-standards.ipynb) <br/>
 	- ``802.11a`` [October 1999 - Not Commonly Seen Today] <br/>
 		- ``5 GHz`` Frequency Range [Smaller Range Than ``802.11b``] <br/>
             - Absorbed by Objects [High Frequency] <br/>
