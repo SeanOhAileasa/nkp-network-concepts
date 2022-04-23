@@ -118,9 +118,10 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 ##### ``The OSI Model``
 
-<details close>
+<details open>
 	<summary>Understanding Open Systems Interconnection (OSI) Model</summary>
 
+- [The OSI Model](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/the-osi-model/nkp-understanding-the-osi-model.ipynb) <br/>
 - OSI Protocol Suite (OSI Model built based on these OSI Protocols) <br/>
 	- Guide [thus the term "Model"] <br/>
 		- The OSI Model <br/>
