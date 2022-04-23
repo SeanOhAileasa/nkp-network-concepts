@@ -16,9 +16,10 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 ##### ``Ports and Protocols``
 
-<details close>
+<details open>
 	<summary>Introduction to IP</summary>
 
+- [Introduction to IP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/ports-and-protocols/nkp-introduction-to-ip.ipynb) <br/>
 - A Series of Moving Trucks <br/>
 	- Road <br/>
 		- Network Topology (Ethernet - DSL - Cable System) <br/>
@@ -40,7 +41,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 	- Box <br/>
 		- Encapsulated - Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) <br/>
 			- Multiplexing <br/>
-				- Use Multiple Applications Simultaneously
+				- Use Multiple Applications Simultaneously <br/>
 		- Transmission Control Protocol (TCP) <br/>
 		![Image: UDP](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/nkp/tcpiposi.png?raw=true) <br/>
 			- Connection-oriented <br/>
@@ -73,7 +74,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 				- Ephemeral (Temporary) <br/>
 					- Client (Real-time) <br/>
 						- ``1024 - 65535`` <br/>
-			- TCP and UDP Ports Numbers 
+			- TCP and UDP Ports Numbers <br/>
 				- ``0 - 65535`` <br/>
 					- No Conflict <br/>
 	- Data <br/>
@@ -86,9 +87,10 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 					- Text Messaging between Devices (ex. Time-To-Live Expired) <br/>
 </details>
 
-<details close>
+<details open>
 	<summary>Common Ports</summary>
 
+- [Common Ports](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/ports-and-protocols/nkp-common-ports.ipynb) <br/>
 - Telecommunication Network (Telnet) ``tcp/23`` <br/>
 - Secure Shell (SSH) ``tcp/22`` <br/>
 - Domain Name System (DNS) ``udp/53`` <br/>
