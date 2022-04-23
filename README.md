@@ -16,7 +16,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 ##### ``Ports and Protocols``
 
-<details open>
+<details close>
 	<summary>Introduction to IP</summary>
 
 - [Introduction to IP](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/ports-and-protocols/nkp-introduction-to-ip.ipynb) <br/>
@@ -87,7 +87,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 					- Text Messaging between Devices (ex. Time-To-Live Expired) <br/>
 </details>
 
-<details open>
+<details close>
 	<summary>Common Ports</summary>
 
 - [Common Ports](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/ports-and-protocols/nkp-common-ports.ipynb) <br/>
@@ -118,7 +118,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 
 ##### ``The OSI Model``
 
-<details open>
+<details close>
 	<summary>Understanding Open Systems Interconnection (OSI) Model</summary>
 
 - [The OSI Model](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/the-osi-model/nkp-understanding-the-osi-model.ipynb) <br/>
@@ -163,6 +163,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Introduction to Ethernet</summary>
 
+- [Introduction to Ethernet](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-introduction-to-ethernet.ipynb) <br/>
 - Small Office/Home Office (SOHO) Local Area Network (LAN) <br/>
 - Enterprise Network <br/>
 - Ethernet Frame [Packet Analyser] <br/>
@@ -236,6 +237,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Network Switching Overview</summary>
 
+- [Network Switching Overview](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-network-switching-overview.ipynb) <br/>
 - Switching <br/>
 	- Forwarding or Dropping Frames  <br/>
 		- Based on Destination MAC Address <br/>
@@ -266,8 +268,9 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 </details>
 
 <details close>
-	<summary>Collision Domains and Broadcast Domains</summary>
+	<summary>Broadcast Domains and Collision Domains</summary>
 
+- [Broadcast Domains and Collision Domains](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-broadcast-domains-and-collision-domains.ipynb) <br/>
 - Collision Domains [Half-duplex Networks] <br/>
 	- Collision [Hub] <br/>
 		- Normal Process (Network Communication) <br/>
@@ -314,6 +317,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Unicasts and Broadcasts and Multicasts</summary>
 
+- [Unicasts and Broadcasts and Multicasts](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-unicasts-and-broadcasts-and-multicasts.ipynb) <br/>
 - Unicast [One Station to One Station] <br/>
 	- One-to-One Relationship <br/>
 		- Web Browsing Session <br/>
@@ -343,6 +347,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Protocol Data Unit (PDU)</summary>
 
+- [Protocol Data Units](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-protocol-data-units.ipynb) <br/>
 - Unit of Information (Transmission) [Sent at a particular OSI Layer] <br/>
 	- Switch <br/>
 		- PDU <br/>
@@ -425,6 +430,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Network Segmentation</summary>
 
+- [Network Segmentation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-network-segmentation.ipynb) <br/>
 - Local Area Network <br/>
 	- Physical <br/>
 		- Group of Devices in the same Broadcast Domain <br/>
@@ -478,6 +484,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Spanning Tree Protocol</summary>
 
+- [Spanning Tree Protocol](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-spanning-tree-protocol.ipynb) <br/>
 - Ethernet Switches [Connect via Single Cable] <br/>
 	- Second Cable [Creates Loop between both Switches] <br/>
 		- No Counting Mechanism at the MAC Layer [Until Cable Pulled out of a Switch] <br/>
@@ -531,6 +538,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Switch Interface Properties</summary>
 
+- [Switch Interface Properties](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-switch-interface-properties.ipynb) <br/>
 - Interface Configuration <br/>
 	- Ethernet <br/>
 		- Speed [10 / 100 / 1000 or Faster Ethernet] & Duplex [Half / Full] <br/>
@@ -604,6 +612,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Static and Dynamic Routing</summary>
 
+- [Static and Dynamic Routing](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-static-and-dynamic-routing.ipynb) <br/>
 - Send IP Packets [Across Network] <br/>
 	- Forwarding Decisions [Based on Destination IP Address] <br/>
 - Routing [Knows the network Step] <br/>
@@ -666,6 +675,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Interior Gateway Protocol (IGP) and Exterior Gateway Protocol (EGP)</summary>
 
+- [Interior Gateway Protocol and Exterior Gateway Protocol](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-interior-gateway-protocol-and-exterior-gateway-protocol.ipynb) <br/>
 - Interior Vs. Exterior <br/>
 	- Autonomous System (AS) <br/>
 		- Existing as an Independent Entity [Independent Network] <br/>
@@ -706,6 +716,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Dynamic Routing Protocols</summary>
 
+- [Dynamic Routing Protocols](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-dynamic-routing-protocols.ipynb) <br/>
 - Routing Network [Use a Dynamic Routing Protocol] <br/>
 	- Communicates between Routers [Know All Available Routes] <br/>
 		- Provide Subnet Information to the Routers <br/>
@@ -764,6 +775,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>IPv4 and IPv6 Addressing</summary>
 
+- [IPv4 and IPv6 Addressing](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-ipv4-and-ipv6-addressing.ipynb) <br/>
 - TCP/IP [Network Protocol of Choice] <br/>
 	- Devices assigned Unique IP Address <br/>
 		- Combined with Subnet Mask <br/>
@@ -789,6 +801,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Configuring IPv6</summary>
 
+- [Configuring IPv6](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-configuring-ipv6.ipynb) <br/>
 - Dual-stack Routing [Common Implementation] <br/>
 	- Dual-stack IPv4 & IPv6 [Protocols ``!=`` Talk to Each Other] <br/>
 		- Run at the same Time [OSI Layer 3 Device] <br/>
@@ -858,6 +871,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Prioritizing Traffic</summary>
 
+- [Prioritizing Traffic](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-prioritizing-traffic.ipynb) <br/>
 - Networks Use Different Devices [Different Applications] <br/>
 	- Mission Critical Applications [Perform Major Functions of a Particular Job] <br/>
 	- Voice over IP (VoIP) <br/>
@@ -899,6 +913,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Network Address Translation</summary>
 
+- [Network Address Translation](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-network-address-translation.ipynb) <br/>
 - IPv4 supports c. 4.29B Addresses <br/>
 	- Over 20B Devices are Connected to the Internet [Estimated] <br/>
 		- Number is Increasing [Need to be able to Communicate Between All] <br/>
@@ -953,6 +968,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Access Control Lists</summary>
 
+- [Access Control Lists](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-access-control-lists.ipynb) <br/>
 - Access Control List (ACL) is a Packet Filter <br/>
 	- Allow or Deny Traffic <br/>
 		- Also used for Network Address Translation (NAT) <br/>
@@ -1008,6 +1024,7 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 <details close>
 	<summary>Circuit Switching and Packet Switching</summary>
 
+- [Circuit Switching and Packet Switching](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-circuit-switching-and-packet-switching.ipynb) <br/>
 - Circuit Switching <br/>
 	- Circuit is Established between Endpoints before Data is Sent <br/>
 		- Phone Network <br/>
@@ -1054,8 +1071,9 @@ Recommend viewing using the ``nbviewer`` links below (click on the associated ``
 </details>
 
 <details close>
-	<summary>Software Defined Networking (SDN)</summary>
+	<summary>Software Defined Networking</summary>
 
+- [Software Defined Networking](https://nbviewer.org/github/SeanOhAileasa/nkp-network-concepts/blob/main/rc/routing-and-switching/nkp-software-defined-networking.ipynb) <br/>
 - Networking Devices have x2 Functional Planes of Operation <br/>
 	- Control Plane <br/>
 		- Administration [ongoing Servicing] <br/>
